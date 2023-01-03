@@ -1,9 +1,9 @@
 import javax.swing.JFrame;
 
 public class GameFrame extends JFrame {
-  
+
   GameFrame() {
-    
+
     this.add(new GamePanel());
     this.setTitle("Sssnake");
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -11,6 +11,6 @@ public class GameFrame extends JFrame {
     this.pack();
     this.setVisible(true);
     this.setLocationRelativeTo(null);
-    
+
   }
 }
